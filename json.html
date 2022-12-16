@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Text Sentiment Analysis API</title>
+    </head>
+    <body>
+        <h2>Text Sentiment Analysis</h2>
+        <input type="text" id="text" placeholder="text here">
+        <input type="submit" onclick="getSentiment()"><br>
+        <h2>State: <span id="state"></span></h2>
+
+        <script>
+            function getSentiment(){
+                var getText = document.getElementById("text").value;
+                const api_url = "http://192.168.175.219/ST/result.php?sent=" + getText;
+
+                async function getStudentData(){
+                    const response = await fetch(api_url);
+                    const data = await response.json();
+                    console.log(data.State);
+                    document.getElementById("state").innerHTML = data.State;
+                }
+                getStudentData();
+            }
+        </script>
+    </body>
+</html>
