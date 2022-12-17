@@ -1,0 +1,83 @@
+/*title*/
+h1 {
+    font-size: 50pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    border-style: hidden;
+    text-align: center;
+    padding: 30px 75px 30px 75px;
+    background-color: rgb(208, 219, 230);
+}
+
+/*entire body*/
+body {
+    background-image: url("background.jpg");
+    padding: 100px;
+}
+
+/*input duo*/
+.enterText {
+    font-size: 15pt;
+    text-align: center;
+    padding: 50px 50px 50px;
+    border-style: hidden;
+}
+
+/*inputbox*/
+#text {
+    width: 420px;
+    height: 45px;
+    text-align: center;
+}
+
+/*submitbox*/
+#submit {
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+}
+
+/*top window*/
+h2 {
+
+    padding: 10px 100px 15px 570px;
+    border-style: hidden;
+    background-color: rgb(208, 219, 230);
+}
+
+#sentiment {
+    text-align: center;
+}
+
+/*top window*/
+.submission {
+    margin-bottom: 100px;
+    padding: 20px;
+    border-style: hidden;
+    background: rgba(25, 41, 57, 0.7);
+    box-shadow: 15px 15px 12px #1a212c;
+
+}
+
+.layerTwo {
+    margin: 40px;
+    padding: 20px;
+    border-style: hidden;
+    background: rgb(116, 150, 187);
+}
+
+.giveData {
+    text-align: center;
+}
+
+.wholeTable {
+    color: black;
+    background: rgba(215, 225, 235, 0.8);
+    margin: auto;
+    width: 85%;
+    padding: 50px 80px 50px 80px;
+    border-style: hidden;
+}
+
